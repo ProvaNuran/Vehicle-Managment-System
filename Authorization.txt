@@ -1,0 +1,6 @@
+select user_roll from users where upper(user_name)=V('APP_USER') and user_roll = 'admin' and  user_roll = 'editor'
+
+select user_roll from users where upper(user_name)=V('APP_USER') and user_roll in ('admin')
+
+return true;
+Insufficient privileges, user is not an Administrator

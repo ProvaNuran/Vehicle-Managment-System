@@ -1,0 +1,15 @@
+FUNCTION my_auth (
+p_username IN VARCHAR2,
+p_password IN VARCHAR2)
+RETURN BOOLEAN AS
+found number := 0;
+BEGIN
+SELECT 1 into found FROM USERS
+WHERE upper(USER_NAME) = upper(p_username)
+AND upper(USER_PASS) = upper(p_password)
+AND USER_ACTIVATED = 1;
+RETURN TRUE;
+EXCEPTION
+WHEN NO_DATA_FOUND THEN
+RETURN FALSE;
+END;
