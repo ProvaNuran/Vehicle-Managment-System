@@ -3,14 +3,14 @@
 The **Vehicle Management System (VMS)** is a web-based application developed using **Oracle APEX (Application Express)**.  
 It provides an efficient platform to **manage vehicles, owners, maintenance, and related records** in an organized and centralized way.
 
----
+
 
 ##Overview
 
 This system is designed to simplify the process of tracking vehicle information, ownership details, maintenance schedules, and administrative tasks.  
 It can be used by organizations, transport departments, or private companies to maintain their vehicle databases efficiently.
 
----
+
 
 
 **Vehicle Management**
@@ -33,7 +33,7 @@ It can be used by organizations, transport departments, or private companies to 
 - Generate detailed reports (vehicles by type, maintenance due, etc.)  
 - Visual dashboards with charts and summaries  
 
----
+
 
 ##Technologies Used
 
@@ -45,7 +45,7 @@ It can be used by organizations, transport departments, or private companies to 
 | **Platform** | Oracle APEX Cloud / On-Premises |
 | **Authentication** | APEX User Authentication / Custom User Table |
 
----
+
 
 ## System Modules
 
@@ -55,7 +55,7 @@ It can be used by organizations, transport departments, or private companies to 
 4. **Maintenance Module** – Track and record maintenance details  
 5. **Reports Module** – Generate custom reports for management  
 
----
+
 
 ## How to Run the Application
 
@@ -79,7 +79,7 @@ It can be used by organizations, transport departments, or private companies to 
 - Mobile-friendly responsive UI  
 - Email/SMS notifications for maintenance schedules  
 
----
+
 
 ##Author
 
@@ -87,7 +87,7 @@ It can be used by organizations, transport departments, or private companies to 
 **Developed In:** Oracle APEX  
 **Language:** SQL
 
----
+
 
 ## Goal
 
@@ -96,6 +96,6 @@ To create a user-friendly and efficient **Vehicle Management System** that:
 - Reduces manual work and errors  
 - Improves record accuracy and reporting efficiency  
 
----
+
 
 
