@@ -1,42 +1,41 @@
-# 🚗 Vehicle Management System (Oracle APEX)
+#Vehicle Management System (Oracle APEX)
 
 The **Vehicle Management System (VMS)** is a web-based application developed using **Oracle APEX (Application Express)**.  
 It provides an efficient platform to **manage vehicles, owners, maintenance, and related records** in an organized and centralized way.
 
 ---
 
-## 🧠 Overview
+##Overview
 
 This system is designed to simplify the process of tracking vehicle information, ownership details, maintenance schedules, and administrative tasks.  
 It can be used by organizations, transport departments, or private companies to maintain their vehicle databases efficiently.
 
 ---
 
-## 🧩 Key Features
 
-✅ **Vehicle Management**
+**Vehicle Management**
 - Add, update, view, and delete vehicle records  
 - Track vehicle type, model, registration number, and insurance details  
 
-✅ **Owner Management**
+ **Owner Management**
 - Maintain records of vehicle owners and drivers  
 - Associate each vehicle with its respective owner  
 
-✅ **Maintenance Tracking**
+**Maintenance Tracking**
 - Record maintenance history  
 - Schedule future servicing and repairs  
 
-✅ **User Roles & Access**
+**User Roles & Access**
 - Admin: Full access to manage all records  
 - Staff/User: Restricted access to assigned modules  
 
-✅ **Reports & Dashboards**
+**Reports & Dashboards**
 - Generate detailed reports (vehicles by type, maintenance due, etc.)  
 - Visual dashboards with charts and summaries  
 
 ---
 
-## 🏗️ Technologies Used
+##Technologies Used
 
 | Component | Description |
 |------------|-------------|
@@ -48,7 +47,7 @@ It can be used by organizations, transport departments, or private companies to 
 
 ---
 
-## ⚙️ System Modules
+## System Modules
 
 1. **Dashboard** – Overview of total vehicles, upcoming maintenance, and system alerts  
 2. **Vehicle Module** – Add and manage vehicle records  
@@ -58,14 +57,14 @@ It can be used by organizations, transport departments, or private companies to 
 
 ---
 
-## 🧾 How to Run the Application
+## How to Run the Application
 
-### 🔹 Prerequisites
+###  Prerequisites
 - Oracle APEX workspace  
 - Oracle Database (Cloud or Local)  
 - Required tables, sequences, and triggers installed  
 
-### 🔹 Setup Steps
+###  Setup Steps
 1. Import the `.sql` or `.app` file into APEX workspace.  
 2. Run the SQL scripts to create database tables and sample data.  
 3. Deploy the application.  
@@ -73,7 +72,7 @@ It can be used by organizations, transport departments, or private companies to 
 5. Run the app and start managing vehicles!
 
 
-## 🧠 Future Enhancements
+## Future Enhancements
 
 - Vehicle insurance and renewal reminders  
 - Integration with GPS tracking APIs  
@@ -82,7 +81,7 @@ It can be used by organizations, transport departments, or private companies to 
 
 ---
 
-## 👨‍💻 Author
+##Author
 
 **Project Title:** Vehicle Management System  
 **Developed In:** Oracle APEX  
@@ -90,7 +89,7 @@ It can be used by organizations, transport departments, or private companies to 
 
 ---
 
-## 🏁 Goal
+## Goal
 
 To create a user-friendly and efficient **Vehicle Management System** that:
 - Centralizes all vehicle-related data  
